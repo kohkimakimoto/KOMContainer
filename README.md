@@ -1,6 +1,6 @@
 # KOMContainer
 
-A simple Dependency Injection Container.
+A simple dependency injection container.
 
 ## Warnings
 
@@ -53,4 +53,20 @@ If you want to get a diffent instance, you can bind the following method.
     return [[MyClass alloc] init];
 }];
 ```
+
+## Author
+
+Kohki Makimoto <kohki.makimoto@gmail.com>
+
+## License
+
+MIT
+
+## Note
+
+Inspired by 
+
+* [illuminate/container](https://github.com/illuminate/container)
+* [pimple/pimple](https://github.com/fabpot/Pimple)
+
 

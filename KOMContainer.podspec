@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "KOMContainer"
   s.version      = "0.1.0"
-  s.summary      = "A simple Dependency Injection Container."
+  s.summary      = "A simple dependency injection container."
   s.homepage     = "https://github.com/kohkimakimoto/KOMContainer"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Kohki Makimoto' => 'kohki.makimoto@gmail.com' }
