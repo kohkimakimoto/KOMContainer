@@ -20,7 +20,7 @@ static KOMContainer *sharedContainer = nil;
 
 @implementation KOMContainer
 
-+ (KOMContainer *)sharedContainer {
++ (instancetype)sharedContainer {
     @synchronized(self) {
         if (!sharedContainer) {
             sharedContainer = [[self alloc] init];

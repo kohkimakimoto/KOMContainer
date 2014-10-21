@@ -15,7 +15,7 @@
  *
  *  @return a container instance
  */
-+ (KOMContainer *)sharedContainer;
++ (instancetype)sharedContainer;
 
 /**
  *  Register a binding with the container.
